@@ -5,7 +5,7 @@ os.system('python db_insert.py')
 from db_insert import kill_unfinished_rows
 kill_unfinished_rows()
 
-bot = telebot.TeleBot('1365297856:AAHmBP1egPsge8mjr2n8Jal9cpJQa9cHh5c')
+bot = telebot.TeleBot('###')
 
 connect_flag_arr = dict()
 vid_flag_arr = dict()
